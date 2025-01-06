@@ -12,3 +12,9 @@ arr.unshift(5);
 console.log(arr);
 arr.shift();
 console.log(arr);
+console.log(arr.length);
+
+const ar=[1,2,3,4];
+const ar2=[5,6,7,8];
+const ans=[...ar,...ar2];
+console.log(ans);
